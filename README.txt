@@ -1,21 +1,3 @@
-CS542 Design Patterns
-Spring 2016
-ASSIGNMENT Assignment-5 README FILE
-
-Submission Date: Sunday, May 8, 2016
-Author 1: Omkar Kulkarni
-e-mail: okulkar2@binghamton.edu
-
-
-PURPOSE:
-	Apply the design principles you have learned so far to develop and test code for the given problem. Apply the dynamic proxy and any other applicable pattern(s).
-
-PERCENT COMPLETE:
-	According to us, the Assignment is 100% complete.
-
-BUGS:
-	No Bugs
-
 FILES:
 
 	This Assignment includes 11 Files, namely
@@ -49,7 +31,7 @@ SAMPLE OUTPUT:
 
 For 'serdeser' Mode: -
 
-omkar@omkar-Inspiron-7548:~/workspace/genericCheckpointing$ ant -buildfile build.xml run -Darg0=serdeser -Darg1=2 -Darg2=output.txt
+Inspiron-7548:~/workspace/genericCheckpointing$ ant -buildfile build.xml run -Darg0=serdeser -Darg1=2 -Darg2=output.txt
 Buildfile: /home/omkar/workspace/genericCheckpointing/build.xml
 
 jar:
@@ -61,12 +43,12 @@ run:
 
 BUILD SUCCESSFUL
 Total time: 0 seconds
-omkar@omkar-Inspiron-7548:~/workspace/genericCheckpointing$
+Inspiron-7548:~/workspace/genericCheckpointing$
 
 
 For 'deser' Mode: -
 
-omkar@omkar-Inspiron-7548:~/workspace/genericCheckpointing$ ant -buildfile build.xml run -Darg0=deser -Darg1=4 -Darg2=output.txt
+Inspiron-7548:~/workspace/genericCheckpointing$ ant -buildfile build.xml run -Darg0=deser -Darg1=4 -Darg2=output.txt
 Buildfile: /home/omkar/workspace/genericCheckpointing/build.xml
 
 jar:
@@ -99,14 +81,12 @@ run:
 
 BUILD SUCCESSFUL
 Total time: 0 seconds
-omkar@omkar-Inspiron-7548:~/workspace/genericCheckpointing$ 
 
 	
 TO COMPILE:
 
 	On terminal after extracting the files from the tarball, 
-	1. Navigate to the wordCount folder of project directory.
-	   You should have something like:omkar@omkar-Inspiron-7548:~/workspace/genericCheckpointing$    (Note:'omkar@omkar-Inspiron-7548:~/workspace:~' will be different in your case).
+	1. Navigate to the wordCount folder of project directory
 	2. Type the command ant -buildfile build.xml clean and press Enter	
 	3. Type the command ant -buildfile build.xml all and press Enter
 
@@ -124,10 +104,5 @@ DATA STRUCTURE USED:
 			  If the number of elements increase, the Vector will increase the size by original
 			  size to accomodate the Objects.
 
-BIBLIOGRAPHY:
 
-	This serves as evidence that we are in no way intending Academic Dishonesty.
-
-
-	* https://docs.oracle.com/javase/7/docs/api/java/util/Vector.html (reffered to know what methods are there to use in Vector).
 
